@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <h1>Form to apply for sigma webdev -TA </h1>
+    <form action="post">
+        <div>
+            <label for="username"> Enter your username</label>
+        <input type="text" id="username" name="username"
+        placeholder="enter your username">
+        </div>
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+        <label for="male">male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">female</label>
+        </div>
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">subscribe to my channel</label>
+
+        </div>
+        <div>
+            <label for="textarea">enter your comment</label>
+            <textarea name="comment" rows="4" cols="40">enter your comment</textarea>
+        </div>
+        <div>
+            <select name="fruits">>
+                <option value="cherry">cherry</option>
+                <option value="lichi"> lichi</option>
+                <option value="mango">mango</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>
